@@ -1,0 +1,20 @@
+# Rust / Tauri
+/target/
+/src-tauri/target/
+/src-tauri/gen/
+
+# Node
+/node_modules/
+
+# Build output
+/dist/
+/out/
+/release/
+
+# Editor / OS
+.idea/
+.DS_Store
+*.swp
+
+# Logs
+*.log

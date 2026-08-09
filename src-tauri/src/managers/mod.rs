@@ -1,0 +1,9 @@
+pub mod apm;
+pub mod appimage;
+pub mod apt;
+pub mod assess;
+pub mod cleanup;
+pub mod docker;
+pub mod flatpak;
+pub mod icons;
+pub mod snap;

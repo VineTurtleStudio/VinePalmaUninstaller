@@ -1,0 +1,9 @@
+{
+  "$schema": "gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "VinePalma 卸载器主窗口能力",
+  "windows": ["main"],
+  "permissions": [
+    "core:default"
+  ]
+}
