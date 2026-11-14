@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "VinePalma 卸载器",
+  "productName": "VinePalmaUninstaller",
   "version": "1.0.0",
   "identifier": "com.vinepalma.uninstaller",
   "build": {
@@ -55,7 +55,8 @@
     ],
     "linux": {
       "deb": {
-        "depends": ["libwebkit2gtk-4.1-0", "libgtk-3-0"]
+        "depends": ["libwebkit2gtk-4.1-0", "libgtk-3-0"],
+        "desktopTemplate": "desktop.desktop"
       }
     }
   }

@@ -1,10 +1,24 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "vinepalma-uninstaller",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:clean": "pkill -f 'vinepalma-uninstaller' || true; pkill -f 'vite' || true",
+    "tauri:dev": "npm run tauri:clean && npm run tauri dev"
   },
-  "private": true
+  "dependencies": {
+    "@tauri-apps/api": "^2.5.0",
+    "@tauri-apps/plugin-shell": "^2.2.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.5.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  }
 }

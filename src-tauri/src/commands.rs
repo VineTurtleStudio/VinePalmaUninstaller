@@ -96,7 +96,8 @@ fn plan_residue_files(prefix: &str, pkg: &Package) -> Vec<crate::models::Planned
     match prefix {
         "flatpak" => cleanup::flatpak_residue(pkg),
         "snap" => cleanup::snap_residue(pkg),
-        "manual" | "apm" => cleanup::manual_residue(pkg),
+        "apm" => cleanup::apm_residue(pkg),
+        "manual" => cleanup::manual_residue(pkg),
         // Docker 镜像没有按包名的宿主残留目录，避免生成 ~/.config/<repo:tag> 等错误路径
         "docker" => Vec::new(),
         _ => cleanup::apt_residue(pkg),

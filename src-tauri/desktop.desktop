@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories={{categories}}
+Comment={{comment}}
+Exec={{exec}}
+Icon={{icon}}
+Name=VinePalma 卸载器
+StartupWMClass={{exec}}
+Terminal=false
+Type=Application
