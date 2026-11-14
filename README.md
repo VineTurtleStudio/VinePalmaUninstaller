@@ -247,3 +247,10 @@ npm run tauri build
 - **評価してから実行** — `assess` が計画を作り、`cleanup` が残骸を消す
 - **無言で消さない** — 削除対象のパスを必ず提示
 - **エラーを隔離** — 使えないパッケージマネージャーはエラー記録のみ
+---
+
+## 许可 / License
+
+本项目以 [MIT](./LICENSE) 许可证发布。
+
+Licensed under the [MIT License](./LICENSE).
